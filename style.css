@@ -1,0 +1,42 @@
+/* Basic element styling */
+body {
+  font-family: "Georgia", serif;
+  background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
+}
+
+/* Class selector */
+.card {
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  transition: transform 0.2s ease;
+}
+
+/* Hover pseudo-class */
+.card:hover {
+  transform: scale(1.05);
+  background-color: #f0f8ff;
+}
+
+/* ID selector */
+#highlight {
+  color: crimson;
+  font-weight: bold;
+}
+
+/* Descendant selector */
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+}
+
+nav ul li a:hover {
+  color: #0077cc;
+}
+
+/* Pseudo-element */
+.card::before {
+  content: "★ ";
+  color: gold;
+}
