@@ -7,7 +7,7 @@ body {
   border: 2px solid #333;
   border-radius: 8px;
   padding: 16px;
-  background-color: white;
+  background-color: #eef2ff;
   transition: transform 0.2s ease;
 }
 
