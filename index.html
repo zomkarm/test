@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Title</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="A brief description of your webpage.">
-
-    <!-- Link to Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CI/CD Demo App</title>
 </head>
 <body>
-
-    <header>
-        <nav>
-            <!-- Navigation links go here -->
-        </nav>
-    </header>
-
-    <main>
-        <h1>Hello, World!</h1>
-        <p>Your web project starts here.</p>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
-    </footer>
-
-    <!-- Link to JavaScript (Optional) -->
-    <!-- <script src="script.js" defer></script> -->
+  <div id="app">
+    <h1>Modular Calculator</h1>
+    <div style="display: flex; gap: 8px; margin-top: 16px;">
+      <input id="num1" type="number" value="10" />
+      <select id="operation">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+      </select>
+      <input id="num2" type="number" value="2" />
+      <button id="calc-btn">Calculate</button>
+    </div>
+    <h2 id="result">Result: 12</h2>
+  </div>
+  <script type="module" src="/src/main.js"></script>
 </body>
 </html>
